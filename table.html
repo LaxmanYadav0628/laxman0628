@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        table{
+            border: 10px solid brown;
+            
+            height: 200px;
+            width: 300px;
+            margin: 200px;
+            border-bottom-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-spacing: 10px;
+            border-left-color: bisque;
+            border-right-color: aquamarine;
+            border-top-color: red;
+            border-bottom-color: blue;
+            background-color:blanchedalmond;
+            
+        }
+        td{
+            border: solid;
+        }
+        td:hover{
+            background-color: pink;
+        }
+        #td1:hover{
+            background-color: aqua;
+        }
+        #td2:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<marquee scrollamount="50"><h1>This is table!</h1>
+<img src="html practice/download (1).jpg" height="200px" width="300px"></marquee>
+
+
+<table>
+        <tr>
+            <td>1</td>
+            <td colspan="2" id="td1">item2</td>
+            <td> item3</td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td rowspan="2" id="td2">item5</td>
+            <td>item6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>item8</td>
+            <td>item9</td>
+        </tr>
+    </table>
+</body>
+</html>
